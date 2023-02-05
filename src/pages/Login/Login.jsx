@@ -33,7 +33,7 @@ navigate("/")
       <form onSubmit={handleSubmit}>
         <input
           ref={emailRef}
-          defaultValue="ali@gmail.com"
+         
           className="form-control my-3"
           type="email"
           placeholder="Email"
