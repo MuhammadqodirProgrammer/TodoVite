@@ -13,8 +13,8 @@ export const PreviteHeader = () => {
           <Link to="/" className="fs-4 text-white text-decoration-none">
             LOGO
           </Link>
-          <Link className="ms-3 text-white text-decoration-none " to="/posts">
-            Posts
+          <Link className="ms-3 text-white text-decoration-none " to="/todos">
+            Todos
           </Link>
           <Link className="ms-3 text-white text-decoration-none " to="/users">
             Users

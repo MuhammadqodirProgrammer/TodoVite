@@ -11,7 +11,7 @@ export const Private = () => {
       <div className="container">
         <Routes>
           <Route index path="/" element={<PreviteHome />} />
-          <Route path="/posts" element={<Posts />} />
+          <Route path="/todos" element={<Posts />} />
           <Route path="/users" element={<Users />} />
           <Route path="*" element={<h1 className="text-danger">Not found !!!</h1>} />
         </Routes>
