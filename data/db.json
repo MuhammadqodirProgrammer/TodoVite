@@ -1,0 +1,40 @@
+{
+  "todos": [
+    {
+      "todo": "fdfcadsfas",
+      "autor": "ali valiev",
+      "id": 9
+    },
+    {
+      "todo": "dasfada",
+      "autor": "ali valiev",
+      "id": 12
+    },
+    {
+      "todo": "ertwert",
+      "autor": "ali valiev",
+      "id": 13
+    },
+    {
+      "todo": "dasdfad",
+      "autor": "ali valiev",
+      "id": 14
+    }
+  ],
+  "users": [
+    {
+      "email": "muhammad@gmail.com",
+      "password": "$2a$10$JmnuYw5o8D00e6TA.RqRQeTc/nvLK6aueOvmvFal.Ni1u1j9qGOxC",
+      "first_name": "Muhammadqodir",
+      "last_name": "Komilov",
+      "id": 1
+    },
+    {
+      "email": "ali@gmail.com",
+      "password": "$2a$10$EkK/fx279KtYBSx5cZgFROwVdoZ00yCS2fHS6K6tBX5JEefZnnkle",
+      "first_name": "ali",
+      "last_name": "valiev",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+
+.todo-box{
+display: flex;
+align-items: center;
+justify-content: space-between;
+max-width: 550px;
+margin: 0 auto;
+}
+.todo-wraper{
+    border: 1px solid whitesmoke;
+    padding: 10px;
+border-radius: 10px;
+    max-width: 560px;
+    margin: 0 auto;
+}
+.input-group{
+    max-width: 560px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+/* .posts-box{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+} */
+.btns-box{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
