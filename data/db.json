@@ -1,14 +1,24 @@
 {
   "todos": [
     {
-      "todo": "asdsdf",
+      "todo": "uhlash",
       "autor": "ali valiyev",
       "id": 1
     },
     {
-      "todo": "ulaaaa",
-      "autor": "vali valiyev",
+      "todo": "code yozish",
+      "autor": "ali valiyev",
       "id": 2
+    },
+    {
+      "todo": "yugurish",
+      "autor": "ali valiyev",
+      "id": 3
+    },
+    {
+      "todo": "Soz yodlash",
+      "autor": "ali valiyev",
+      "id": 4
     }
   ],
   "users": [

@@ -78,9 +78,7 @@ evt.target.nextSibling.classList.toggle('line')
   }
   return (
     <div>
-      <button onClick={() => setPostModal(true)} className="btn btn-secondary">
-        ADD TODO +{" "}
-      </button>
+   
       <h2 className="h2 text-center my-5">TODOS</h2>
 <div>
 <form onSubmit={handlePost} className='input-group'>
