@@ -135,7 +135,7 @@ evt.target.nextSibling.classList.toggle('line')
               className="form-control mb-3"
               ref={titleEditRef}
               type="text"
-              placeholder="Title"
+              placeholder="Edit Todo"
             />
         
             <button type="submit" className="btn btn-primary">

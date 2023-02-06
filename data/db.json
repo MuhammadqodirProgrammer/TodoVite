@@ -6,8 +6,8 @@
       "id": 1
     },
     {
-      "todo": "fadfa",
-      "autor": "ali valiyev",
+      "todo": "ulaaaa",
+      "autor": "vali valiyev",
       "id": 2
     }
   ],
@@ -32,6 +32,13 @@
       "first_name": "ali",
       "last_name": "valiyev",
       "id": 3
+    },
+    {
+      "email": "vali@gmail.com",
+      "password": "$2a$10$ofwRwP6N0WqD5yu9qcOUNuCm7mjg9/iuqLGI0KsHaehTU5MQ5jK2C",
+      "first_name": "vali",
+      "last_name": "valiyev",
+      "id": 4
     }
   ]
 }
