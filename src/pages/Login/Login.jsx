@@ -3,7 +3,7 @@ import React, { useContext, useRef, useState } from "react";
 import { AuthContext } from "../../context/AuthContext";
 import { UserContext } from "../../context/UserContex";
 import {useNavigate} from "react-router-dom"
-
+import "./login.css"
 const Login = () => {
   const navigate = useNavigate()
   const {setToken} = useContext(AuthContext)
@@ -28,7 +28,7 @@ navigate("/")
    
   };
   return (
-    <div className="w-50 mx-auto my-5 p-5 shadow">
+    <div className="w-50 mx-auto login-box my-5 p-5 shadow">
       <h1 className="text-center my-3">Login</h1>
       <form onSubmit={handleSubmit}>
         <input
