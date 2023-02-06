@@ -1,4 +1,8 @@
 
+
+    .register-box{
+        width: 50% !important;
+            } 
 @media screen and (max-width:768px) {
     .register-box{
 width: 90% !important;

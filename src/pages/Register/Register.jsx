@@ -33,7 +33,7 @@ const navigate = useNavigate()
   
   };
   return (
-    <div className="w-50 register-box mx-auto my-5 p-5 shadow">
+    <div className=" register-box mx-auto my-5 p-5 shadow">
       <h1 className="text-center my-3">Register</h1>
       <form onSubmit={handleSubmit}>
       <input

@@ -28,7 +28,7 @@ navigate("/")
    
   };
   return (
-    <div className="w-50 mx-auto login-box my-5 p-5 shadow">
+    <div className=" mx-auto login-box my-5 p-5 shadow">
       <h1 className="text-center my-3">Login</h1>
       <form onSubmit={handleSubmit}>
         <input
