@@ -79,7 +79,7 @@ evt.target.nextSibling.classList.toggle('line')
   return (
     <div>
    
-      <h2 className="h2 text-center my-5">TODOS</h2>
+      <h2 className="h2 text-center my-3">TODOS</h2>
 <div>
 <form onSubmit={handlePost} className='input-group'>
             <input
