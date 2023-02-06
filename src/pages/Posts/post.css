@@ -18,6 +18,11 @@ border-radius: 10px;
     margin: 0 auto;
     margin-bottom: 30px;
 }
+.line{
+    text-decoration: line-through;
+    color: green;
+
+}
 /* .posts-box{
     display: flex;
     align-items: center;

@@ -1,24 +1,14 @@
 {
   "todos": [
     {
-      "todo": "uxlash",
-      "autor": "ali valiev",
+      "todo": "asdsdf",
+      "autor": "ali valiyev",
       "id": 1
     },
     {
-      "todo": "werwr",
-      "autor": "ali valiev",
+      "todo": "fadfa",
+      "autor": "ali valiyev",
       "id": 2
-    },
-    {
-      "todo": "werfqe",
-      "autor": "ali valiev",
-      "id": 3
-    },
-    {
-      "todo": "erqerqe",
-      "autor": "ali valiev",
-      "id": 4
     }
   ],
   "users": [
@@ -35,6 +25,13 @@
       "first_name": "ali",
       "last_name": "valiev",
       "id": 2
+    },
+    {
+      "email": "a@gmail.com",
+      "password": "$2a$10$ho./Cbla5bqKlxLQxL/.a.DkdP3vRlxM2SxUpFIbRCqiSzKBVamvy",
+      "first_name": "ali",
+      "last_name": "valiyev",
+      "id": 3
     }
   ]
 }

@@ -7,7 +7,7 @@ export const Posts = () => {
   const { user } = useContext(UserContext);
   const titleRef = useRef();
   const titleEditRef = useRef();
-  
+  const todoRef = useRef()
   const [posts, setPosts] = useState([]);
   const [postModal, setPostModal] = useState(false);
   const [editModal, seteditModal] = useState(false);
@@ -71,6 +71,11 @@ export const Posts = () => {
     seteditModal(true);
     handleEditSubmit();
   };
+
+  const handleCheckbox =(evt)=>{
+    setId(evt.target.dataset.postId);
+evt.target.nextSibling.classList.toggle('line')
+  }
   return (
     <div>
       <button onClick={() => setPostModal(true)} className="btn btn-secondary">
@@ -96,8 +101,8 @@ export const Posts = () => {
           {posts.map((post) => (
             <div className="todo-wraper">
             <div key={post.id} class="todo-box ">
-              <input type="checkbox" className="form-chack-input" />
-              <span className="card-title">{post.todo}</span>
+              <input data-post-id={post.id} onClick={handleCheckbox} type="checkbox" className="form-chack-input" />
+              <span data-post-id={post.id}  ref={todoRef} className="card-title">{post.todo}</span>
 
               <div className="btns-box">
                 <button
