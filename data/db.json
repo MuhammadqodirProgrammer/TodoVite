@@ -6,19 +6,14 @@
       "id": 1
     },
     {
-      "todo": "code yozish",
-      "autor": "ali valiyev",
-      "id": 2
-    },
-    {
-      "todo": "yugurish",
-      "autor": "ali valiyev",
-      "id": 3
-    },
-    {
       "todo": "Soz yodlash",
       "autor": "ali valiyev",
       "id": 4
+    },
+    {
+      "todo": "kino korish",
+      "autor": "demo fdd",
+      "id": 5
     }
   ],
   "users": [
@@ -49,6 +44,13 @@
       "first_name": "vali",
       "last_name": "valiyev",
       "id": 4
+    },
+    {
+      "email": "demo@gmail.com",
+      "password": "$2a$10$mDfWSormV9WrxVmqx.Q3X.CWHrdL8V3ubnTKHfrK9LhuEGeAd5zLq",
+      "first_name": "demo",
+      "last_name": "fdd",
+      "id": 5
     }
   ]
 }

@@ -86,7 +86,7 @@ evt.target.nextSibling.classList.toggle('line')
               className="form-control "
               ref={titleRef}
               type="text"
-              placeholder="Title"
+              placeholder="Todo..."
             />
            
             <button type="submit" className="btn btn-primary">
